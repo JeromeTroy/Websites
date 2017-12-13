@@ -1,0 +1,140 @@
+body{
+  background-color: white;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h2{
+  padding-left: 20pt;
+}
+
+h3{
+  margin: 30pt;
+}
+
+table{
+  color: black;
+  background-color: #DCDCDC;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 5pt;
+}
+
+table.inner{
+  color: black;
+  background-color: #DCDCDC;
+  text-align: center;
+  border-bottom: hidden;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: 6px solid blue;
+}
+
+p{
+  color: black;
+  font-style: normal ;
+  font-size: 14pt;
+  font-family: arial;
+  padding: 5pt;
+  margin-left: 10pt;
+}
+
+p.center{
+  text-align: center;
+}
+
+li{
+  line-height: 150%;
+}
+
+body.physics{
+  background-image: url("images/elipse.jpg");
+  background-repeat: repeat;
+}
+
+body.math{
+  background-image: url("images/bessel.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+body.main{
+  background-image: url("images/hexagons.jpg");
+}
+
+div.color{
+  color: purple;
+}
+
+
+a.logo{
+  position: relative;
+  top: 9pt
+
+}
+
+img.plot{
+  float: right;
+  position: relative;
+  z-index: 20;
+}
+
+ul.nav{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li.nav{
+  display: block;
+  float: left;
+  padding: 12pt 16px;
+}
+
+a.nav{
+  color: white;
+  text-decoration: none;
+}
+
+li.nav:hover{
+  background-color: gray;
+}
+
+#background {
+  opacity: .8;''
+}
+
+#background span{
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+#background2{
+  background-color: white;
+  opacity: .9;
+}
+
+p.movedleft{
+  background-color: white;
+  opacity: .8;
+}
+
+ul.movedleft{
+  background-color: white;
+  opacity: .8;
+}
+
+ol.movedleft{
+  background-color: white;
+  opacity: .8;
+}
